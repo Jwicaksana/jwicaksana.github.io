@@ -1,94 +1,50 @@
-<htmL>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Jeffry Wicaksana: About Me</title>
-<style> 
-table.BarTable,
-th,
-td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-.dp {
-  width: 1%;
-  white-space: nowrap;
-}
-.round{
-  width:90%;
-  padding-top:90%;
-  overflow:hidden;
-  position:relative;
-  border-radius:80%;
-}
-img{
-  position:absolute;
-  top:50%;
-  left:50%;
-  min-width:100%;
-  height:150%;
-  transform:translate(-50%,-50%);
-  transition: 1s ease;
-}
-*{
-	font-family: verdana;
-}
-
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jeffry Wicaksana explores personal, always-on agents that learn people's goals and constraints, adapt through feedback, and stay easy to correct, especially in education, healthcare, and endurance training.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Jeffry Wicaksana: I explore personalization.</title>
+  <link rel="preload" href="assets/fonts/literata.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css?rev=personal-3">
+</head>
 <body>
-	<table align="center" class="BarTable" style="width:80%;height:80%">
-	<tr>
-		<td class="dp"> 
-			<div class="round">
-				<img src="assets/pp.png"/>
-			</div>
-		</td>
-		<td>
-		<h3> About Me </h3>
-		<p align="justify"> I am about to finish my PhD <b>(HKPFS 2019)</b> study at HKUST (May 2024). During my study, I work closely with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting Cheng</a>, <a href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-zhang-dongz"> Prof. Zhang Dong</a>, and <a href="https://mia2i.github.io/home/">Prof. Zengqiang Yan</a>. I am currently looking for <b> opportunities in AI and healthcare industry</b>. </p>
-		
-		<p> I want to push the boundary of personalized healthcare </p>
-
-		<p align="justify"> My primary research interest are in Federated Learning, Medical Image Analysis, Foundational Federated Learning, and Temporal Health Data Analytics for Wellness. I am aiming to design a future where personalized health analytics, where most of the computations are performed at edge (mobile PC) is possible. </p>
-		</td>
-		</tr>
-	<tr>
-		<td class="dp" align="center"> 
-			<p> Jeffry Wicaksana </p>
-			<p> jwicaksana AT connect AT ust DOT hk </p>
-			<p> <a href="https://jeffry.bearblog.dev/"> ramble </a></p>
-		</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>
-		<h3> Selected Publications </h3>
-		<p> <a href="https://scholar.google.com/citations?hl=en&user=pZerfhQAAAAJ&view_op=list_works">Google Scholar</a>
-		<br>
-		<ul>
-			<li> 
-				<p>SAM in federated medical image segmentation: friend or foe? </p>
-				<p> (<b>Under review, 2024</b>) </p>
-			</li>
-			<li> 
-				<p> FedNPR: non-parametric regularization for class imbalance federated medical image classification </p>
-				<p>(<b>Under review, 2024</b>)</p>
-			</li>
-			<li> 
-				<p>FedMix: mixed supervised federated learning for medical image segmentation </p>
-				<p>(<b>IEEE Transactions on Medical Imaging (TMI), 2023</b>)</p>
-			</li>
-			<li> 
-				<p>CusFL: customized federated learning for multi-source decentralized medical image classification </p>
-				<p>(<b>IEEE Journal of Biomedical and Health Informatics (JBHI), 2023</b>)</p>
-			</li>
-			<li> 
-				<p> Variation-aware federated learning with multi-source decentralized medical image data </p>
-				<p> (<b>IEEE Journal of Biomedical and Health Informatics (JBHI), 2021</b>)</p>
-			</li>
-		</td>
-	</tr>
-	<hr>
-
-	
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="identity">
+      <img class="portrait" src="assets/pp.png" width="403" height="464" alt="Jeffry Wicaksana on a snowy tree-lined path.">
+      <div>
+        <p class="name">Jeffry Wicaksana</p>
+        <nav aria-label="Find my work">
+          <a href="https://scholar.google.com/citations?user=pZerfhQAAAAJ">Scholar</a>
+          <a href="https://github.com/Jwicaksana">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="introduction" aria-labelledby="title">
+        <h1 id="title">I explore personalization.</h1>
+        <p class="focus">I’m interested in personal, always-on agents that learn someone’s goals and constraints, adapt through feedback, and stay easy to correct, especially in education, healthcare, and endurance training.</p>
+        <p class="background">My PhD focused on federated learning and personalization for medical image analysis. I’ve built agentic systems at Liquid Compute and personalized learning tools at Lirvana Labs.</p>
+      </section>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <h2 id="work-title">Selected work</h2>
+        <article class="project">
+          <h3><a href="https://doi.org/10.1109/TMI.2022.3233405">FedMix: Mixed supervised federated learning for medical image segmentation</a></h3>
+          <p class="publication-meta">IEEE TMI, 2023 <a href="https://github.com/Jwicaksana/FedMix" aria-label="Explore FedMix code on GitHub">Code</a></p>
+        </article>
+        <article class="project">
+          <h3><a href="https://doi.org/10.1109/JBHI.2020.3040015">VAFL: Variation-aware federated learning with multi-source decentralized medical image data</a></h3>
+          <p class="publication-meta">IEEE JBHI, 2021</p>
+        </article>
+        <article class="project">
+          <h3><a href="https://doi.org/10.1109/JBHI.2022.3198440">CusFL: Customized federated learning for multi-source decentralized medical image classification</a></h3>
+          <p class="publication-meta">IEEE JBHI, 2022</p>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
